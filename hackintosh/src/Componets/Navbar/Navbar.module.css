@@ -1,42 +1,50 @@
 @import "../../vars.css";
-
 .navbar{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top:  61px;
+    padding-top: 70px;
     z-index: 2;
-    margin: 0 10%;
+    margin: 0 5%;
+    
 }
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+}
+
 .title{
+    margin-left: 10px;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     color: var(--color-text);
-}
-.menuBtn{
-    display: none;
 }
 .menu{
     display: flex;
 }
-.menuItems{
+.menuItem{
     display: flex;
     gap: 47px;
     list-style: none;
-    
 }
-.menuItems a {
+.menuItem a{
     font-size: 25px;
     color: var(--color-text);
-    text-decoration: none; 
+    text-decoration: none;
 }
-
-   .logo{
-    width: 100px;
-   } 
-
+.imagen{
+    width: 50px;
+    margin-left: auto;
+  
+}
 @media screen and (max-width:830px) {
     .navbar{
         flex-direction: column;
@@ -57,17 +65,17 @@
         cursor: pointer;
 
     }
-    .menuItems{
+    .menuItem{
         display: none;
         flex-direction: column;
         align-items: center;
         gap: 13px ;
         border-radius: 10px;
-        background: rgb(25, 55, 109);
-        background: linear-gradient(0deg,rgba(25,55,109, 0.2)0%,
-        rgba(25,55,109,1)100%);
+        background: rgba(246, 246, 246, 0.831);
+        background: linear-gradient(0deg,rgba(76, 78, 83, 0.158)0%,
+        rgba(121, 125, 132, 0.683)100%);
         padding: 24px 33px;
-        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.809);
     }
     .menuOpen{
         display: flex;
