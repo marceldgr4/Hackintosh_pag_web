@@ -38,9 +38,9 @@ export const Navbar=()=>{
                 onClick={()=>setmenuOpen(false)}
                 >
 
-
+                    <li><a href="#home">Inicion</a></li>
                     <li><a href="https://dortania.github.io/OpenCore-Install-Guide/">Guia dortania</a></li>
-                    <li><a href="#MacOS">Versiones de macOS</a></li>
+                    <li><a href="#MacOS">macOS</a></li>
                     <li><a href="#Herramientas">Herramientas</a></li>
                     <li><a href="#Equipos">Equipos</a></li>
                     <li><a href="#Tienda">Tienda</a></li>
