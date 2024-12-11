@@ -1,4 +1,4 @@
-/* Home.module.css */
+@import "../../vars.css";
 .container {
     display: flex;
     flex-direction: column;
