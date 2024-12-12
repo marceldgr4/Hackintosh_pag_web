@@ -5,9 +5,11 @@ import{ Home} from "./component/Home/Home";
 import{ Macos } from "./component/Mac/Macos";
 import{ Usb } from "./component/Usb/Usb";
 
+
 import { Navbar } from "./component/Navbar/Navbar";
 
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { Win } from './component/Wind/Win';
 function App() {
  
 
@@ -21,11 +23,14 @@ function App() {
           <section id="Home"><Home /></section>
           <section id= "Macos"><Macos /></section>
           </>        
-        } />
-           <Route path= "/Usb" element={<Usb/>}/>
+        } 
         
-      
+        />
 
+
+           <Route path= "/Usb" element={<Usb/>}/>
+           <Route path="/Win" element={<Win/>}/>
+        
       </Routes>
       </div>
       </Router>

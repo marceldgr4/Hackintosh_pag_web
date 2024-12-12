@@ -1,11 +1,84 @@
 @import "../../vars.css";
 
 .container {
-    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2cm 40px;
     background-color: #f4f4f4;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 0 4px 8px rgb(0, 0, 0);
-    max-width: 1200px;
-    margin: auto;
+    max-width: 1000px;
     color: #312f2f;
+    margin: auto;
+    margin-top: 50px;
+    
+  }
+  
+  .title{
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #353433;
+  }
+  .h2{
+    font-size: 1.5rem;
+    color: #484545ea;
+    line-height: 1;
+  }
+    .subt{
+    font-size: 3.3rem;
+    line-height: 1;
+    color: #2d2c2cea;
+  }
+  
+  .usb p{
+    font-size: 1.3rem;
+    color: #484545ea;
+  }
+  .usb img{
+    display: flex;
+    width: 100px;
+    height: auto; 
+
+  }
+  .usb .img1{
+    width: 70%;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .txt1{
+    font-size: 1.3rem;
+    color: #484545ea;
+  }
+  .contents img{
+    display: flex;
+    width: 60%;
+  }
+  .nota{
+    display: flex;
+    margin-top: 40px;
+    
+  }
+  .txt2{
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    box-shadow: 0 11px 12px rgba(0, 0, 0, 0.1);
+    background-color: #d5cdc4;
+    padding: 70px 40px;
+    margin-left: -140px;
+  }
+  .nota img{
+    width: 300px;
+    height: auto;
+    z-index: 1;
+    margin-left: 30px;
+    
+  }
+  .windows img{
+    display: flex;
+    width: 200px;
+
+
   }
