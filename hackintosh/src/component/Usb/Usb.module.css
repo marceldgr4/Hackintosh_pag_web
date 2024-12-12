@@ -1,0 +1,11 @@
+@import "../../vars.css";
+
+.container {
+    padding: 10px 30px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    max-width: 1200px;
+    margin: auto;
+    color: #312f2f;
+  }

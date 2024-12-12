@@ -1,23 +1,35 @@
 import React from 'react'
 
 import styles from "./App.module.css"; 
-import{ Home} from "./componets/Home/Home";
-import{ Macos } from "./componets/Mac/Macos";
+import{ Home} from "./component/Home/Home";
+import{ Macos } from "./component/Mac/Macos";
+import{ Usb } from "./component/Usb/Usb";
 
-import { Navbar } from "./Componets/Navbar/Navbar";
+import { Navbar } from "./component/Navbar/Navbar";
 
-
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 function App() {
  
 
   return (
-   
-    <div className={styles.App}>
-       <Navbar/> 
-       <Home/>
-       <Macos/>
-       
-    </div>
+    <Router>
+      <div className ={styles.App}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={
+           <>
+          <section id="Home"><Home /></section>
+          <section id= "Macos"><Macos /></section>
+          </>        
+        } />
+           <Route path= "/Usb" element={<Usb/>}/>
+        
+      
+
+      </Routes>
+      </div>
+      </Router>
+     
     
    
   );
