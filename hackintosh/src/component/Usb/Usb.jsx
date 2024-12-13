@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Usb.module.css";
 import { getImageUrl } from "../../utils";
 import { useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export const Usb = () => {
   const navigate = useNavigate();
@@ -47,6 +48,13 @@ export const Usb = () => {
         <div className={styles.windows}>
           <h1 className={styles.title}>Creación desde Windows</h1>
           <img src={getImageUrl("windows/Windows.png")} alt="Windows" />
+          <p className={styles.txt1}>La creación de este proceso es un poco más largo. Debes tener los componentes necesarios para realizar la instalación.
+            El instalador no es tan pesado como en macOS. Para la creación de USB booteable, ingresa para mayor detalle:
+          </p>
+          <button className={styles.button}onClick={() => navigate('/Win')}
+          >
+            Crear USB Windows
+          </button>
         </div>
       </section>
     </div>
