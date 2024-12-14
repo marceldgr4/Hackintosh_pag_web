@@ -1,5 +1,5 @@
 # Hackintos 🚀  
-### Proyecto para la selección de equipos de trabajo
+### Proyecto de trabajo
 
 Hackintos es un ordenador que no es fabricado por Apple pero que se ha configurado para ejecutar el sistema operativo macOS. ideal para entusiastas de la tecnología que deseen experimentar con macOS sin invertir en hardware de Apple. También es popular entre desarrolladores y usuarios avanzados que necesitan macOS pero tienen restricciones de presupuesto o quieren un hardware más personalizable.
 
