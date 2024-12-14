@@ -1,14 +1,14 @@
 # Hackintos 🚀  
 ### Proyecto para la selección de equipos de trabajo
 
-Hackintos es una interfaz interactiva diseñada para facilitar la selección de equipos entre opciones Desktop y Laptop, brindando una experiencia visual y funcional única. Este proyecto incluye animaciones, efectos dinámicos y enlaces interactivos, ideal para demostrar habilidades en desarrollo frontend.
+Hackintos es un ordenador que no es fabricado por Apple pero que se ha configurado para ejecutar el sistema operativo macOS. ideal para entusiastas de la tecnología que deseen experimentar con macOS sin invertir en hardware de Apple. También es popular entre desarrolladores y usuarios avanzados que necesitan macOS pero tienen restricciones de presupuesto o quieren un hardware más personalizable.
+
+La pagina es pensada como una pequeña guia y fue el tema es "Hackintosh" para desarrolla de una pagina web, de un proyecto de clase con objetivo es educativo para poner en practica mis habilidades en la parte del fron-end, claro esta que la pagina tiene link a una guia mas completa y presisa sobre la informacion de como crear un Hackintosh. esta pagina busca tener un  interfaz interactiva diseñada para facilitar la selección de equipos entre opciones Desktop y Laptop, brindando una experiencia visual y funcional única. Este proyecto incluye efectos dinámicos y enlaces interactivos, 
 
 ---
 
 ## 🚩 Características principales  
-- **Interfaz atractiva**: Diseño intuitivo con estilos modernos y responsivos.  
-- **Efectos visuales**: Animaciones con `hover` y destellos dinámicos en las imágenes de los equipos.  
-- **Interactividad**: Enlaces funcionales que redirigen a detalles específicos de cada equipo.  
+- **Interfaz atractiva**: Diseño intuitivo con estilos modernos y responsivos.    
 - **Composición modular**: Código organizado en componentes React reutilizables.  
 
 --- 
@@ -62,7 +62,7 @@ hackintos/
 
 1. Clona este repositorio en tu máquina local:  
    ```bash
-   git clone https://github.com/tuusuario/hackintos.git
+   git clone https://github.com/marceldgr4/Hackintosh_pag_web.git
    cd hackintos
    ```
 
