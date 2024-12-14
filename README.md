@@ -103,7 +103,7 @@ Si deseas contribuir a este proyecto:
 
 ## ✨ Preview  
 
-![Preview del proyecto](https://user-images.githubusercontent.com/your-profile-id/preview.png)  
+---![Captura de pantalla 2024-12-13 a la(s) 7 57 06 p m](https://github.com/user-attachments/assets/c31b1858-0d56-41b0-bb42-d66dc0ec5ac8)
 
 ---
 
