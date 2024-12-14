@@ -103,7 +103,7 @@ Si deseas contribuir a este proyecto:
 
 ## ✨ Preview  
 
-![Preview del proyecto](../Hackintosh_pag_web/hackintosh/public/assets/preview/preview.png)  
+![Preview del proyecto](.https://github.com/marceldgr4/Hackintosh_pag_web/blob/main/hackintosh/public/assets/preview/preview.png)  
 
 ---
 
