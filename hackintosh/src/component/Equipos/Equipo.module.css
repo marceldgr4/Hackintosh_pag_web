@@ -1,0 +1,58 @@
+@import "../../vars.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2cm 10px;
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    max-width: 1000px;
+    color: #837f7f;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .conten{
+    gap: 110px;
+    display: flex;
+    padding: 5px 20px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgba(58, 57, 52, 0.855);
+    align-items: center;
+    
+  }
+  .people{
+    width: 350px;
+    height: auto;
+    margin-top: -200px;
+   
+    
+
+  }
+  .img {
+    width: 250px;
+    height: auto;
+    
+   
+  }
+
+  .title {
+    font-size: 3.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .text {
+    font-size: 1.5rem;
+    margin-top: 8px;
+    color: #dedbdb;
+  }
+  .equipmentLink {
+    text-decoration: none; /* Quitar subrayado */
+    text-align: center;
+  }
+  .img:hover {
+    transform: scale(1.2); /* Agrandar ligeramente al pasar el cursor */
+   
+  }

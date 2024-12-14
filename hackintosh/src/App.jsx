@@ -10,6 +10,7 @@ import { Navbar } from "./component/Navbar/Navbar";
 
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import { Win } from './component/Wind/Win';
+import { Equipo } from './component/Equipos/Equipo';
 function App() {
  
 
@@ -30,6 +31,7 @@ function App() {
 
            <Route path= "/Usb" element={<Usb/>}/>
            <Route path="/Win" element={<Win/>}/>
+           <Route path="/Equipo" element={<Equipo/>}/>
         
       </Routes>
       </div>

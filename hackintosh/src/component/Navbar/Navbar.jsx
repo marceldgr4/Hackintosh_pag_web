@@ -39,11 +39,9 @@ export const Navbar = () => {
                 <li><a href="https://dortania.github.io/OpenCore-Install-Guide/"  target="_blank" rel="noopener noreferrer">Guía Dortania</a></li>
                 <li><ScrollLink to="Macos" smooth={true} duration={500} > MacOS </ScrollLink> </li>
                 <li><Link to="Usb" >Crear USB </Link> </li>
+                <li><Link to="Equipo"  >Equipos</Link> </li>
+                <li><Link to="Herramientas"> Herramientas </Link> </li>               
                
-                <li><Link to="Efi"  >Crear Efi </Link> </li> 
-                <li><Link to="Herramientas"> Herramientas </Link> </li>
-                <li><Link to="Equipos"  >Equipos</Link> </li>
-                <li><Link to="Tienda"  >Tienda</Link> </li>
                 </>
             ):(
                 // Navegación con redirección a la página principal y desplazamiento
@@ -51,14 +49,12 @@ export const Navbar = () => {
                 <li><Link to="/#Home" onClick={() => window.location.href = "/#Home"}>Inicio</Link></li>
                 <li><Link to="/#Macos" onClick={() => window.location.href = "/#Macos"}>MacOS</Link></li>
                 <li><Link to="/Usb" onClick={() => window.location.href = "/Usb"}>Crear USB macOS</Link></li>
-                <li><Link to="/Win" >Crear USB Windows </Link></li>
-                <li><Link to="/#Efi" onClick={() => window.location.href = "/#Eif"}>Crear EFI</Link></li>
-                
-
-                </>
+                <li><Link to="/Win" >Crear USB Windows </Link></li>  
+                <li><Link to="/Equipo" onClick={() => window.location.href = "/Equipo"}>Equipos</Link></li>
+              
+              </>
             )}
           
-         
         </ul>
       </div>
     </nav>

@@ -64,8 +64,7 @@ export const Win =()=>{
                     X64 (CPU de 64 bits),  A continuación, coge la carpeta EFI dentro y colócala en la 
                     raíz de la unidad USB junto a com.apple.recovery.boot. NOTA: Recuerda que la capeta EFI 
                     debe esta configurado para tu equipo con los KEXT, SSDT, y CONFIG modificado.
-                    SI no tiene echo eso revisa detalladamente la guia de dortania 
-                    
+                    SI no tiene echo eso revisa detalladamente la guia de dortania   
                  </p>
                  <img className={styles.img} src={getImageUrl("windows/05.png")} alt="" />
                 
