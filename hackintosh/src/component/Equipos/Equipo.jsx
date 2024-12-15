@@ -7,7 +7,7 @@ export const Equipo = () => {
     <section className={styles.container} id="Equipo">
       <h1 className={styles.title}>Selección un Equipo</h1>
       <br />
-      <h2>es la configuracion para los ultimo modelo de procesadores intel</h2>
+      <h2>Es la configuracion para los ultimo modelo de procesadores intel para los procesdaores AMD o Rayzer solo es para equipos desktop.</h2>
         <br />
       <div className={styles.conten}>
         <a

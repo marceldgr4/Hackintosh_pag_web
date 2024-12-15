@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     padding: 40px 20px;
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
    
   }
@@ -34,7 +34,6 @@
     align-items: center;
   }
   .image {
-    
     max-width: 500px;
     height: auto;
     z-index: 1;
@@ -56,4 +55,27 @@
     line-height: 1.5;
     color: #555;
   }
+  
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 3rem; /* Reducir tamaño del título */
+    }
+
+    .text {
+        font-size: 1rem; /* Reducir tamaño de texto */
+    }
+
+    .textWrapper {
+        padding: 20px 50px; /* Ajustar padding */
+        justify-content: center;
+      }
+      .image{
+        width: 250px;
+      }
+
+      
+}
+
+
   

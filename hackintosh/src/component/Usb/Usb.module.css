@@ -1,119 +1,163 @@
 @import "../../vars.css";
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2cm 40px;
-    background-color: #f4f4f4;
-    border-radius: 30px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
-    max-width: 1000px;
-    color: #312f2f;
-    margin: auto;
-    margin-top: 50px;
-    
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+  max-width: 80%;
+  color: #312f2f;
+  margin: 20px auto;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #353433;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  color: #484545ea;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.subt {
+  font-size: 2rem;
+  line-height: 1.3;
+  color: #2d2c2cea;
+  text-align: center;
+}
+
+.usb p {
+  font-size: 1.2rem;
+  color: #484545ea;
+  text-align: center;
+}
+
+.usb img {
+  max-width: 8%;
+  height: auto;
+  margin-bottom: 10px;
   
-  .title{
-    font-size: 4.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #353433;
-  }
-  .h2{
-    font-size: 1.5rem;
-    color: #484545ea;
-    line-height: 1;
-  }
-    .subt{
-    font-size: 3.3rem;
-    line-height: 1;
-    color: #2d2c2cea;
-  }
+}
+
+.usb .img1 {
+  max-width: 60%;
+ 
+}
+
+.txt1 {
+  font-size: 1.2rem;
+  color: #484545ea;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.contents img {
+ height: auto;
+  max-width: 60%;
+  margin: 10px;
+  display: block;
+  margin-left: 240px;
+}
+
+.nota {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.nota img {
+  width: 300px;
+  height: auto;
+  z-index: 1;
+  margin-left: 30px;
+}
+
+.txt2 {
+  border-radius: 10px;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #d3e2e6;
+  padding: 5px 20px;
   
-  .usb p{
-    font-size: 1.3rem;
-    color: #484545ea;
+  
+}
+
+.windows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.windows img {
+  max-width: 15%;
+  height: auto;
+  margin: 10px ;
+  
+  
+}
+
+.windows .txt1 {
+  font-size: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #d3e2e6;
+  padding: 20px;
+  text-align: justify;
+}
+
+.button {
+  font-size: 1rem;
+  width: auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: #034182c9;
+}
+
+@media (max-width: 680px) {
+  .container {
+    padding: 20px;
   }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
   .usb img{
-    display: flex;
-    width: 100px;
-    height: auto; 
+    max-width: 20%; /* Imágenes aún más pequeñas en pantallas pequeñas */
+    margin: auto;
+  }
+  .contents img {
+    max-width: 100%; /* Imágenes aún más pequeñas en pantallas pequeñas */
+    margin: auto;
+  }
 
+  .nota img {
+    max-width: 50%; /* Imagen más compacta */
   }
-  .usb .img1{
-    width: 70%;
-    gap: 20px;
-    justify-content: space-between;
-  }
-  .txt1{
-    font-size: 1.3rem;
-    color: #484545ea;
-  }
-  .contents img{
-    display: flex;
-    width: 60%;
-  }
-  .nota{
-    display: flex;
-    margin-top: 40px;
-    
-  }
-  .txt2{
-    text-align: center;
-    border-radius: 20px;
-    font-size: 1.3rem;
-    box-shadow: 0 11px 12px rgba(0, 0, 0, 0.1);
-    background-color: #d5cdc4;
-    padding: 70px 40px;
-    margin-left: -140px;
-  }
-  .nota img{
-    width: 300px;
-    height: auto;
-    z-index: 1;
-    margin-left: 30px;
-    
-  }
-  .windows{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    align-items: center;
-    
-  }
-  
-  .windows img{
-    width: 170px;
-    height: auto;
-    z-index: 1;
-    margin-left: -550px;
-  }
-  .windows .txt1{ 
-    margin-top: -120px;
-    border-radius: 20px;
-    font-size: 1.3rem;
-    box-shadow: 0 11px 12px rgba(0, 0, 0, 0.1);
-    background-color: #d5cdc4;
-    padding: 30px 50px;
-    margin-left: 200px;
 
-  }
   .button {
-    font-size: medium;
-    width: 200px;
-    height: 50px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-left: 300px;
-    margin-top: -20px;
-    box-shadow: 0 11px 12px rgba(0, 0, 0, 0.1);
+    font-size: 0.8rem;
   }
-  
-  .button:hover {
-    background-color: #034182c9;
-  }
+}

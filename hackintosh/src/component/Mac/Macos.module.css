@@ -7,6 +7,7 @@
     max-width: 1000px;
     margin: auto;
     color: #312f2f;
+    
   }
   
   /* Cabecera: título y descripción */
@@ -119,16 +120,19 @@
   
     .soIcons {
       justify-content: center;
-      gap: 50px;
+      gap: 30px;
     }
   
     .personImg {
-      max-width: 200px;
+   
+      max-width: 140px;
+      margin-left: -500px;
     }
   
     .icon img {
       width: 80px;
       height: 80px;
+      
     }
   
     .title {
